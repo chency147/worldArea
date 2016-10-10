@@ -18,7 +18,7 @@ SQL文件备注
 | chinese_area_1.sql        | 从word_area.sql中提取出中国的地区信息；               |
 | chinese_area_2.sql        | 将chinese_area_1.sql中的省份、城市、地区的行政规划ID去除，以自定义整型取代之； |
 | chinese_area_2冗余版.sql     | chinese_area_2.sql中城市、地区表格包含上一级的ID和名称；   |
-| chinese_area_2(ID整型化).sql | chinese_area_2.sql中将省份、城市、地区的行政规划的字符串ID转化为整型。 |
-| chinese_area.js           | chinese_area_2(ID整型化).sql对应的js版本，可以用来制作三级联动 |
+| chinese_area_2(ID整型化).sql | chinese_area_2.sql中将省份、城市、地区的行政规划的字符串ID转化为整型； |
+| chinese_area.js           | chinese_area_2(ID整型化).sql对应的js版本，可以用来制作三级联动。 |
 
 2016年10月10日 10:21:07
